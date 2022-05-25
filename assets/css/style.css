@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	width: auto;
+	height: auto;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+html {
+	background-image: url(/img/bg/teal-pink-lines.jpg);
+	height: fit-content;
+	background-position: fixed;
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+body {
+	overscroll-behavior: none;
+}
+
+.body-ctn {
+	margin: 7rem 1rem 8rem 1rem;
+	z-index: 0;
+	position: absolute;
+	min-height: 100%;
+	width: fit-content;
+}
