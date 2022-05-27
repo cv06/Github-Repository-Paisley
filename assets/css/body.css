@@ -1,0 +1,15 @@
+body {
+	background-image: url(/img/bg/page-bg/4K_-_3840px_X_2160px.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overscroll-behavior: none;
+}
+
+
+.body-ctn {
+	margin: 0;
+	padding: 7rem 2rem 7rem 2rem;
+	z-index: 0;
+	position: absolute;
+} 

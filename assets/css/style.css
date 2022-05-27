@@ -9,24 +9,49 @@
 	box-sizing: border-box;
 }
 
-html {
-	background-image: url(img/bg/teal-pink-lines.jpg);
-	height: fit-content;
-	background-position: fixed;
-	position: relative;
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 100%;
-}
 
-body {
-	overscroll-behavior: none;
-}
+@media screen and (max-width: 2560px) {
+	html {
+		background-image: url(/img/bg/page-bg/QHD_-_2560px_X_1440px.png);
+		background-size: 100% 250rem;
+	}
 
-.body-ctn {
-	margin: 7rem 1rem 8rem 1rem;
-	z-index: 0;
-	position: absolute;
-	min-height: 100%;
-	width: fit-content;
+	@media screen and (max-width: 1920px) {
+		html {
+			background-image: url(/img/bg/page-bg/FHD_-_1920px_X_1080px.png);
+			background-size: 100% 350rem;
+		}
+
+		@media screen and (max-width: 950px) {
+			html {
+				background-image: url(/img/bg/page-bg/5:4_-_1280px_X_1024px.png);
+				background-size: 100% 650rem;
+			}
+
+			@media screen and (max-width: 550px) {
+				html {
+					background-image: url(/img/bg/page-bg/768_X_1024.png);
+					background-size: 100% 1000rem;
+				}
+
+				@media screen and (max-width: 400px) {
+					html {
+						background-size: 150% 1000rem;
+					}
+
+					@media screen and (max-width: 280px) {
+						html {
+							background-size: 200% 1000rem;
+						}
+
+						@media screen and (max-width: 200px) {
+							html {
+								background-size: 400% 1500rem;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }
