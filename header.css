@@ -44,7 +44,7 @@ header[data-bg="true"] {
 }
 
 #three-dot-toggle {
-	background: url('/img/ico/three-dots.svg');
+	background: url('three-dots.svg');
 	background-repeat: no-repeat;
 	grid-column: 5;
 	background-size: cover;
@@ -56,7 +56,7 @@ header[data-bg="true"] {
 }
 
 #three-dot-toggle[data-toggle="true"] {
-	background: url('/img/ico/thick-x.svg');
+	background: url('thick-x.svg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	grid-column: 5;
@@ -68,7 +68,7 @@ header[data-bg="true"] {
 }
 
 #hamburger-toggle {
-	background: url('/img/ico/hamburger-menu.svg');
+	background: url('hamburger-menu.svg');
 	display: none;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -79,7 +79,7 @@ header[data-bg="true"] {
 }
 
 #hamburger-toggle[data-toggle="true"] {
-	background: url('/img/ico/thick-x.svg');
+	background: url('thick-x.svg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
