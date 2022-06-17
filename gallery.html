@@ -4,33 +4,33 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/x-icon" href="img/logo/white_logo_no_text.PNG">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" type="image/x-icon" href="img/logo/white_logo_no_text.png">
 	<title>Gallery</title>
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
-	<link rel="stylesheet" href="assets/css/nav.css" type="text/css">
-	<link rel="stylesheet" href="assets/css/body.css" type="text/css">
-	<link rel="stylesheet" href="assets/css/gallery.css" type="text/css">
-	<script src="assets/js/main.js"></script>
-	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link rel="stylesheet" href="css/nav-css/nav.css" type="text/css">
+	<link rel="stylesheet" href="css/pages-css/gallery.css" type="text/css">
+
+	<script src="javascript/main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head>
 
-<body>
+<body id="body">
+	<div id="header-holder"></div>
 	<div class="body-ctn">
 	</div>
-
-	<!-- assets -->
-	<div class="hdr-holder"></div>
-	<div class="ftr-holder"></div>
-
+	<!-- ---------------------------------------- || HEADER AND FOOTER INSERT || ---------------------------------------- -->
+	<div id="footer-holder"></div>
 	<script>
 		$(function () {
-			$(".hdr-holder").load("assets/block-assets/hdr.html");
+			$("#header-holder").load("assets/header.html");
 		});
 		$(function () {
-			$(".ftr-holder").load("assets/block-assets/ftr.html");
+			$("#footer-holder").load("assets/footer.html");
 		});
 	</script>
-	<!-- ------- -->
+	<!-- ---------------------------------------- || HEADER AND FOOTER INSERT || ---------------------------------------- -->
 </body>
 
 </html>

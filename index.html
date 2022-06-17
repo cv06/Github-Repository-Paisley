@@ -4,41 +4,100 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/x-icon" href="img/logo/white_logo_no_text.PNG">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" type="image/x-icon" href="/img/logo/white-logo.png">
+	<meta name="keywords"
+	 content="Paisley, Clown, Lincoln, Nebraska, entertainer, balloon artist, tattoos, facepainting, art, party, parties, balloon">
 	<title>Home</title>
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
-	<link rel="stylesheet" href="assets/css/nav.css" type="text/css">
-	<link rel="stylesheet" href="assets/css/body.css" type="text/css">
-	<link rel="stylesheet" href="assets/css/index.css" type="text/css">
-	<script src="assets/js/main.js"></script>
-	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	<link rel="stylesheet" href="nav.css" type="text/css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head>
 
-<body>
-	<div class="body-ctn">
-		<div class="hero paisleys-parties-heading">
-			PAISLEYS PARTIES
-		</div>
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		<br><br><br><br><br><br><br><br>
-		<br><br><br><br><br><br><br><br>
-		<br><br><br><br><br><br><br><br>
-		<br><br><br><br><br><br><br><br>
-		
-	</div>
+<body id="body">
 
-	<!-- assets -->
-	<div class="hdr-holder"></div>
-	<div class="ftr-holder"></div>
+	<div id="header-holder"></div>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous"
+	 src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="jqX6mztV"></script>
+	<div class="body-ctn">
+		<div id="webpage-title-hero">
+			<div class="webpage-header">Paisley's Parties</div>
+			<div class="webpage-sub-header">For all your balloon and party needs.</div>
+			<div id="services-cta">Services</div>
+			<img src="/img/hero/title-hero-balloons.png" alt="balloon hero image"
+			 id="webpage-title-hero-img">
+		</div>
+		<a href="https://www.facebook.com/paisleysparties" target="_blank" id="sm-link-ctn">
+			Already a returning customer of Paisley's Parties? Write a honest review on Facebook
+			about us
+			and receive up to 15% off your next purchase!
+			<img src="/img/ico/facebook-icon.svg" alt="facebook icon" id="sm-link-fb-img">
+		</a>
+		<div id="about-ctn-index">
+			<div class="paisley-img-index">
+				<svg height="100%" stroke-miterlimit="10" version="1.1" viewBox="0 0 4000 4000"
+				 width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+				 xmlns:xlink="http://www.w3.org/1999/xlink">
+					<defs />
+					<path
+					 d="M67.6535 2398.7C-53.3946 1527.12 466.987 1634.98 1049.56 1244.58C1505.19 939.246 1940.74 37.5797 2546.3 50.1297C2865.15 56.7377 3503.09 121.142 3901.37 1773.72C4116.97 2668.27 3559.56 2576.65 3325.61 3010.27C3151.08 3333.75 2845.47 3802.29 2538.71 3878.04C1994.69 4012.39 310.58 4147.84 67.6535 2398.7Z"
+					 fill="currentColor" fill-rule="evenodd" opacity="1" stroke="none" />
+				</svg>
+				<img src="/img/ot/paisley-standing-umbrella-full.png" alt="">
+			</div>
+			<div class="map-embed">
+				<iframe
+				 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96647.68261078732!2d-96.76076830088233!3d40.800717774250074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8796be59ca561265%3A0x633a859b1fd5deb9!2sLincoln%2C%20NE!5e0!3m2!1sen!2sus!4v1655417089202!5m2!1sen!2sus"
+				 style="border:0;" allowfullscreen="" loading="lazy"
+				 referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<div class="text-map-embed">
+					<div>Lincoln Nebraska</div>
+					<div>View FAQ for rates outside of Lincoln</div>
+				</div>
+			</div>
+			<div class="about-text-index" data-background="false">
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, animi nesciunt ipsa,
+				iste doloremque deserunt eos facere, quaerat officiis esse iusto rerum tempore numquam
+				expedita ad iure. Veritatis, incidunt recusandae.
+				A magni doloribus fugiat debitis sed explicabo minima, sit nulla iure repudiandae facere
+				voluptate, commodi sapiente cupiditate praesentium soluta eius accusamus dolores aliquid
+				obcaecati omnis dolore nisi laudantium! Sit, debitis?
+				Maxime corporis debitis perferendis ex vel error eos nobis non suscipit enim doloribus
+				eaque, magni nisi doloremque fugiat itaque. Accusamus minima fugit delectus, repellat
+				blanditiis facilis recusandae quasi. Deserunt, et?
+			</div>
+			<div class="contact-form">
+				<div class="contact-header-index">
+					Contact Me
+				</div>
+				<form method="post" action="contact-form-handler.php">
+					<label for="contact-name">Name:</label>
+					<input type="text" id="contact-name" placeholder="Your name">
+
+					<label for=contact-email"email">Email:</label>
+					<input type="email" id="contact-email" placeholder="Your email">
+
+					<label for=contact-message">Message:</label>
+					<textarea id="contact-message" rows="4"
+					 placeholder="What can I help you with?"></textarea>
+
+					<button type="submit" id="submit-contact-btn">Send Message</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- ---------------------------------------- || HEADER AND FOOTER INSERT || ---------------------------------------- -->
+	<div id="footer-holder"></div>
 	<script>
 		$(function () {
-			$(".hdr-holder").load("assets/block-assets/hdr.html");
-		});
-		$(function () {
-			$(".ftr-holder").load("assets/block-assets/ftr.html");
+			$("#header-holder").load("header.html");
+			$("#footer-holder").load("footer.html");
 		});
 	</script>
-	<!-- ------- -->
+	<script src="main.js"></script>
+	<link rel="stylesheet" href="index.css" type="text/css">
+	<!-- ---------------------------------------- || HEADER AND FOOTER INSERT || ---------------------------------------- -->
 </body>
 
 </html>

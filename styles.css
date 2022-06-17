@@ -1,0 +1,72 @@
+@import url(body.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+@font-face {
+	font-family: "Party Confetti";
+	src: url(Party-Confetti.otf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	border: none;
+	font-style: none;
+	color: currentColor;
+	font-family: 'Poppins', 'Sofia Pro', 'Arial', 'Helvetica', sans-serif;
+}
+
+:root {
+	/* color */
+	--color-teal: 181 36% 75%;
+	--color-cyan: 164 12% 87%;
+	--color-pink: 358 72.8% 84.1%;
+	--color-peach-white: 21 60.9% 91.0%;
+	--color-dark-purple: 248 33% 19%;
+	--color-light-purple: 247 29% 68%;
+	--color-gray-purple: 248 24% 40%;
+	--color-black: 0 0% 0%;
+	--color-white: 0 0% 100%;
+
+	--color-teal-rgb: rgba(121, 189, 190, 1.0);
+	--color-cyan-rgb: rgba(194, 221, 214, 1.0);
+	--color-pink-rgb: rgba(244, 185, 187, 1.0);
+	--color-peach-white-rgb: rgba(246, 228, 218, 1.0);
+	--color-dark-purple-rgb: rgba(34, 32, 48, 1.0);
+	--color-light-purple-rgb: rgba(129, 123, 174, 1.0);
+	--color-gray-purple-rgb: rgba(79, 76, 100, 1.0);
+	/* padding / margin */
+	--padding-one: min(1vw, 1rem);
+	--padding-two: min(2vw, 2rem);
+	--padding-three: min(3vw, 3rem);
+	/* border */
+	--border-zero: 1px solid rgba(0, 0, 0, 0.2);
+	--border-one: 1px solid rgba(0, 0, 0, 0.3);
+	--border-two: 1px solid rgba(0, 0, 0, 0.1);
+	--border-three: 1px solid rgba(0, 0, 0, 0.4);
+
+	--border-radius-one: clamp(0.5rem, 0.5vw, 2rem);
+	--border-radius-two: clamp(1rem, 1vw, 4rem);
+	/* nav popups */
+	--contact--1-small-txt: clamp(0.47rem, calc(1.19rem + -1.07vw), 1.04rem);
+	--contact-0-normal-txt: clamp(0.09rem, calc(1.01rem + 0.70vw), 1.1rem);
+	--contact-1-normal-img: clamp(0.49rem, calc(1.21rem + 0.70vw), 1.4rem);
+	--contact-0-normal-img: clamp(1.0rem, calc(1.41rem + 0.70vw), 2.88rem);
+
+	--contact-1-close-btn: clamp(1.25rem, calc(0.805rem + 12.95vw), 2.15rem);
+
+	--contact-2-header-txt: clamp(1.5rem, calc(0.82rem + 9.95vw), 2.50rem);
+
+	--about-0-normal-txt: clamp(1.46rem, 7.75vw, 22.2rem);
+	/* transition */
+	--bounce-transition: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+	--bounce-transition-short: cubic-bezier(0.9, 0.09, 0, 1.23);
+	--bounce-to-transition: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+	/* text */
+	--step--2: clamp(0.47rem, calc(0.56rem + -0.05vw), 0.55rem);
+	--step--1: clamp(0.59rem, calc(0.55rem + 0.20vw), 0.94rem);
+	--step-0: clamp(0.86rem, 1vw, 2.88rem);
+	--step-1: clamp(1.0rem, 1.75vw, 4.15rem);
+	--step-2: clamp(1.0rem, 1.50vw, 7.50rem);
+}
