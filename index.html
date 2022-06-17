@@ -11,7 +11,12 @@
 	<title>Home</title>
 	<link rel="stylesheet" href="styles.css" type="text/css">
 	<link rel="stylesheet" href="nav.css" type="text/css">
-	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
+	<script>
+		fetch('header.html')
+			.then(response => response.text())
+			.then(text => document.getElementById('header-holder').innerHTML = text);
+	</script>
 </head>
 
 <body id="body">
@@ -25,8 +30,7 @@
 			<div class="webpage-header">Paisley's Parties</div>
 			<div class="webpage-sub-header">For all your balloon and party needs.</div>
 			<div id="services-cta">Services</div>
-			<img src="title-hero-balloons.png" alt="balloon hero image"
-			 id="webpage-title-hero-img">
+			<img src="title-hero-balloons.png" alt="balloon hero image" id="webpage-title-hero-img">
 		</div>
 		<a href="https://www.facebook.com/paisleysparties" target="_blank" id="sm-link-ctn">
 			Already a returning customer of Paisley's Parties? Write a honest review on Facebook
