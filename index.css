@@ -245,7 +245,7 @@
 }
 
 textarea::placeholder {
-	color: hsl(var(--color-black) / 0.6) ;
+	color: hsl(var(--color-black) / 0.6);
 }
 
 input {
@@ -409,7 +409,7 @@ footer {
 	}
 
 	footer {
-		margin-top: 90vw;
+		margin-top: 210vw;
 	}
 
 	.map-embed {
@@ -420,6 +420,10 @@ footer {
 
 	.text-map-embed div:nth-child(2) {
 		display: none;
+	}
+
+	.contact-form {
+		margin-top: 30vw;
 	}
 }
 
