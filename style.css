@@ -14,9 +14,12 @@
  *               ANCHOR TEXT / FONT
  *=============================================**/
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
+
 @font-face {
-  font-family: "Party Confetti";
-  src: url(Party-Confetti.otf); }
+	font-family: "Party Confetti";
+	src: url(/root/fonts/Party-Confetti.otf);
+}
+
 /*=============================================*
  *               ANCHOR BORDERS
  *=============================================**/
@@ -38,25 +41,31 @@
 *                                          ANCHOR UNIVERSAL
 *------------------------------------------------------------------------------------------------⁡**/
 * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: 0;
-  border: none;
-  font-style: none; }
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: 0;
+	border: none;
+	font-style: none;
+}
 
 body {
-  font-family: 'Poppins', 'Sofia Pro', 'Verdana', 'Arial', 'Helvetica', sans-serif; }
+	font-family: 'Poppins', 'Sofia Pro', 'Verdana', 'Arial', 'Helvetica', sans-serif;
+}
 
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar {
-  background-color: rgba(0, 0, 0, 0);
-  width: 0; }
-  ::-webkit-scrollbar-track:focus, ::-webkit-scrollbar-track:active,
-  ::-webkit-scrollbar:focus,
-  ::-webkit-scrollbar:active {
-    background-color: rgba(0, 0, 0, 0.2);
-    width: .5em; }
+	background-color: rgba(0, 0, 0, 0);
+	width: 0;
+}
+
+::-webkit-scrollbar-track:focus,
+::-webkit-scrollbar-track:active,
+::-webkit-scrollbar:focus,
+::-webkit-scrollbar:active {
+	background-color: rgba(0, 0, 0, 0.2);
+	width: .5em;
+}
 
 /*========================================================================================================================*/
 /**⁡⁢⁣⁣-----------------------------------------------------------------------------------------------*
