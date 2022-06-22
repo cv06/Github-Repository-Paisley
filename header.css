@@ -7,7 +7,7 @@
 /**⁡⁢⁣⁣------------------------------------------------------------------------------------------------
  *                                         ANCHOR IMPORTS
  *------------------------------------------------------------------------------------------------⁡**/
-@import url(body.css);
+@import url(./body.css);
 /*========================================================================================================================*/
 /**⁡⁢⁣⁣------------------------------------------------------------------------------------------------
  *                                         ANCHOR VARIABLES
@@ -18,11 +18,11 @@
  *               ANCHOR TEXT / FONT
  *=============================================**/
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
-@import url(component-css/popups.css);
+@import url(popups.css);
 
 @font-face {
 	font-family: "Party Confetti";
-	src: url(/root/fonts/Party-Confetti.otf);
+	src: url(Party-Confetti.otf);
 }
 
 /*=============================================*
@@ -162,7 +162,7 @@ header #header__logo {
 	border: 1px solid rgba(255, 255, 255, 0);
 	border-radius: 100vmax;
 	transition: background-color 250ms;
-	background-image: url("/root/img/logo/purple--dark-logo.svg");
+	background-image: url("./purple--dark-logo.svg");
 	background-repeat: no-repeat;
 	background-size: max(4rem, 4vmax) !important;
 	background-position: center;
@@ -248,11 +248,11 @@ header #nav #dropdown-toggle {
 }
 
 header #nav #dropdown-toggle[data-toggle="false"] {
-	background-image: url("/root/img/icon/three-dots.svg");
+	background-image: url("./three-dots.svg");
 }
 
 header #nav #dropdown-toggle[data-toggle="true"] {
-	background-image: url("/root/img/icon/thick-x.svg");
+	background-image: url("./thick-x.svg");
 }
 
 header #nav #dropdown-toggle:hover {
@@ -274,11 +274,11 @@ header #nav #hamburger-toggle {
 }
 
 header #nav #hamburger-toggle[data-toggle="false"] {
-	background-image: url("/root/img/icon/hamburger-menu.svg");
+	background-image: url("./hamburger-menu.svg");
 }
 
 header #nav #hamburger-toggle[data-toggle="true"] {
-	background-image: url("/root/img/icon/thick-x.svg");
+	background-image: url("./thick-x.svg");
 }
 
 @media (max-width: 860px) {

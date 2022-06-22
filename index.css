@@ -7,7 +7,7 @@
 /**⁡⁢⁣⁣------------------------------------------------------------------------------------------------
  *                                         ANCHOR IMPORTS
  *------------------------------------------------------------------------------------------------⁡**/
-@import url(body.css);
+@import url(./body.css);
 /*========================================================================================================================*/
 /**⁡⁢⁣⁣------------------------------------------------------------------------------------------------
  *                                         ANCHOR VARIABLES
@@ -21,7 +21,7 @@
 
 @font-face {
 	font-family: "Party Confetti";
-	src: url(/root/fonts/Party-Confetti.otf);
+	src: url(./Party-Confetti.otf);
 }
 
 /*=============================================*
@@ -163,7 +163,7 @@ body #main__grid #title-hero {
 	grid-template-rows: minmax(0, 10vw) repeat(3, minmax(0, 4.5vw)) minmax(0, 20vw);
 	grid-template-columns: 2vw auto 45vw;
 	row-gap: 1vw;
-	background-color: url("/root/img/hero/index__hero--bg.svg");
+	background-color: url("./index__hero--bg.svg");
 	z-index: 1;
 	height: fit-content;
 }

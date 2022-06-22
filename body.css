@@ -21,7 +21,7 @@
 
 @font-face {
 	font-family: "Party Confetti";
-	src: url(/root/fonts/Party-Confetti.otf);
+	src: url(./Party-Confetti.otf);
 }
 
 /*=============================================*
@@ -103,7 +103,7 @@ body {
 	font-family: 'Poppins', 'Sofia Pro', 'Arial', 'Helvetica', sans-serif;
 	background-color: #f4b9bb;
 	display: grid;
-	background-image: url("/root/img/bg/main-page-bg.png");
+	background-image: url("./main-page-bg.png");
 	background-size: 100%;
 	background-position: center;
 	background-attachment: fixed;
