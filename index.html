@@ -9,99 +9,94 @@
 	<meta name="keywords"
 	 content="Paisley, Clown, Lincoln, Nebraska, entertainer, balloon artist, tattoos, facepainting, art, party, parties, balloon">
 	<title>Home</title>
-	<link rel="stylesheet" href="styles.css" type="text/css">
-	<link rel="stylesheet" href="nav.css" type="text/css">
-	<!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
-	<script>
-		fetch('header.html')
-			.then(response => response.text())
-			.then(text => document.getElementById('header-holder').innerHTML = text);
-	</script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="index.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head>
 
-<body id="body">
+<body>
+	<div id='header-ctn'></div>
+	<!--⁡⁢⁣⁣ ----------------------------------------------------------------------------------------------------------------------
+							ANCHOR BODY 
+	-----------------------------------------------------------------------------------------------------------------------⁡ -->
+	<main id="main__grid">
+		<img src="index__hero--bg.svg" id="title-hero__bg">
+		<div id="title-hero">
+			<div id="title-hero__header">Paisley's Parties</div>
+			<div id="title-hero__header--sub">For all your balloon and party needs!</div>
+			<a href="service.html" id="title-hero__cta">Services</a>
+			<img src="index__hero--img.png" alt="Balloon cluster hero image"
+			 id="title-hero__img">
 
-	<div id="header-holder"></div>
-	<div id="fb-root"></div>
-	<script async defer crossorigin="anonymous"
-	 src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="jqX6mztV"></script>
-	<div class="body-ctn">
-		<div id="webpage-title-hero">
-			<div class="webpage-header">Paisley's Parties</div>
-			<div class="webpage-sub-header">For all your balloon and party needs.</div>
-			<div id="services-cta">Services</div>
-			<img src="title-hero-balloons.png" alt="balloon hero image" id="webpage-title-hero-img">
+			<img src="balloon-cluster.png" alt="Balloon cluster hero image"
+			 id="title-hero__img--mobile">
 		</div>
-		<a href="https://www.facebook.com/paisleysparties" target="_blank" id="sm-link-ctn">
-			Already a returning customer of Paisley's Parties? Write a honest review on Facebook
-			about us
-			and receive up to 15% off your next purchase!
-			<img src="facebook-icon.svg" alt="facebook icon" id="sm-link-fb-img">
-		</a>
-		<div id="about-ctn-index">
-			<div class="paisley-img-index">
-				<svg height="100%" stroke-miterlimit="10" version="1.1" viewBox="0 0 4000 4000"
-				 width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-				 xmlns:xlink="http://www.w3.org/1999/xlink">
-					<defs />
-					<path
-					 d="M67.6535 2398.7C-53.3946 1527.12 466.987 1634.98 1049.56 1244.58C1505.19 939.246 1940.74 37.5797 2546.3 50.1297C2865.15 56.7377 3503.09 121.142 3901.37 1773.72C4116.97 2668.27 3559.56 2576.65 3325.61 3010.27C3151.08 3333.75 2845.47 3802.29 2538.71 3878.04C1994.69 4012.39 310.58 4147.84 67.6535 2398.7Z"
-					 fill="currentColor" fill-rule="evenodd" opacity="1" stroke="none" />
-				</svg>
-				<img src="paisley-standing-umbrella-full.png" alt="">
-			</div>
-			<div class="map-embed">
-				<iframe
-				 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96647.68261078732!2d-96.76076830088233!3d40.800717774250074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8796be59ca561265%3A0x633a859b1fd5deb9!2sLincoln%2C%20NE!5e0!3m2!1sen!2sus!4v1655417089202!5m2!1sen!2sus"
-				 style="border:0;" allowfullscreen="" loading="lazy"
-				 referrerpolicy="no-referrer-when-downgrade"></iframe>
-				<div class="text-map-embed">
-					<div>Lincoln Nebraska</div>
-					<div>View FAQ for rates outside of Lincoln</div>
+
+
+		<div id="contact__and__social">
+			<div id="social-hero">
+				<div id="social-hero__txt">
+					<p>Already a Customer?</p>
+					<p>Leave a honest review on facebook and receive 15% off of your next party
+						package</p>
 				</div>
+				<a href="https://www.facebook.com/paisleysparties" target="_blank"
+				 class="dropdown__facebook dropdown__social" id="social-hero__link">
+					@PaisleysParties <img src="facebook-icon.svg"
+					 alt="facebook logo">
+				</a>
 			</div>
-			<div class="about-text-index" data-background="false">
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, animi nesciunt ipsa,
-				iste doloremque deserunt eos facere, quaerat officiis esse iusto rerum tempore numquam
-				expedita ad iure. Veritatis, incidunt recusandae.
-				A magni doloribus fugiat debitis sed explicabo minima, sit nulla iure repudiandae facere
-				voluptate, commodi sapiente cupiditate praesentium soluta eius accusamus dolores aliquid
-				obcaecati omnis dolore nisi laudantium! Sit, debitis?
-				Maxime corporis debitis perferendis ex vel error eos nobis non suscipit enim doloribus
-				eaque, magni nisi doloremque fugiat itaque. Accusamus minima fugit delectus, repellat
-				blanditiis facilis recusandae quasi. Deserunt, et?
-			</div>
-			<div class="contact-form">
-				<div class="contact-header-index">
-					Contact Me
-				</div>
-				<form method="post" action="contact-form-handler.php">
-					<label for="contact-name">Name:</label>
-					<input type="text" id="contact-name" placeholder="Your name">
+			<div id="contact-hero">
+				<div id="contact-form__header">Contact Me!</div>
+				<form id="contact-form" action="https://formsubmit.co/fc1dde8c8bd0469519f345b2076ddca5"
+				 method="POST">
+					<!-- Honeypot -->
+					<input type="text" name="_honey" style="display: none;">
+					<input type="hidden" name="_captcha" value="false">
+					<input type="hidden" name="_next"
+					 value="success.html">
 
-					<label for=contact-email"email">Email:</label>
-					<input type="email" id="contact-email" placeholder="Your email">
-
-					<label for=contact-message">Message:</label>
-					<textarea id="contact-message" rows="4"
-					 placeholder="What can I help you with?"></textarea>
-
-					<button type="submit" id="submit-contact-btn">Send Message</button>
+					<div id="contact-form__name--first" class="contact-form__field">
+						<label for="firstName" class="form-label">First Name:</label>
+						<input type="text" class="form-control" name="name" id="firstName"
+						 placeholder="John" required>
+					</div>
+					<div id="contact-form__name--last" class="contact-form__field">
+						<label for="lastName" class="form-label">Last Name:</label>
+						<input type="text" class="form-control" name="Last&nbsp;Name"
+						 id="lastName" placeholder="Doe" required>
+					</div>
+					<div id="contact-form__email" class="contact-form__field">
+						<label for="emailInfo" class="form-label">Email:</label>
+						<input type="email" class="form-control" name="email" id="emailInfo"
+						 placeholder="john.doe@gmail.com" required>
+					</div>
+					<div id="contact-form__phone" class="contact-form__field">
+						<label for="phoneNumber" class="form-label">Phone Number:</label>
+						<input type="text" class="form-control" name="phone" id="phoneNumber"
+						 placeholder="+1 (234) 567-8910">
+					</div>
+					<div id="contact-form__message" class="contact-form__field">
+						<label for="comments" class="form-label">Questions, comments?:</label>
+						<textarea class="form-control" id="comments"
+						 name="questions,&nbsp;comments" rows="3"
+						 placeholder="Anything you would like to contact me about!"
+						 required></textarea>
+					</div>
+					<div id="contact-form__submit">
+						<button type="submit" class="submit-btn">Submit</button>
+					</div>
 				</form>
 			</div>
 		</div>
-	</div>
-	<!-- ---------------------------------------- || HEADER AND FOOTER INSERT || ---------------------------------------- -->
-	<div id="footer-holder"></div>
-	<script>
-		$(function () {
-			$("#header-holder").load("header.html");
-			$("#footer-holder").load("footer.html");
-		});
-	</script>
+	</main>
+	<!-- ⁡⁢⁣⁣----------------------------------------------------------------------------------------------------------------------
+							END OF DOCUMENT ➜ LINKING
+	-----------------------------------------------------------------------------------------------------------------------⁡ -->
+	<footer id='footer'></footer>
 	<script src="main.js"></script>
-	<link rel="stylesheet" href="index.css" type="text/css">
-	<!-- ---------------------------------------- || HEADER AND FOOTER INSERT || ---------------------------------------- -->
+	<script src="index.js" defer></script>
+
 </body>
 
 </html>

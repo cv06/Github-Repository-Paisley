@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 4000 4000" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="2287.71" id="Filter" width="4562.69" x="-281.345" y="1413.73">
+<feDropShadow dx="-9.18301e-05" dy="25" flood-color="#000000" flood-opacity="0.252525" in="SourceGraphic" result="Shadow" stdDeviation="12.5"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="2102.26" id="Filter_2" width="4556.91" x="-462.382" y="1506.45">
+<feDropShadow dx="-9.18301e-05" dy="25" flood-color="#000000" flood-opacity="0.252525" in="SourceGraphic" result="Shadow" stdDeviation="12.5"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="1991.7" id="Filter_3" width="4579.33" x="-392.858" y="1495.15">
+<feDropShadow dx="-9.18301e-05" dy="25" flood-color="#000000" flood-opacity="0.252525" in="SourceGraphic" result="Shadow" stdDeviation="12.5"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="3857.85" id="Filter_4" width="4157.57" x="-132.566" y="-369.889">
+<feDropShadow dx="-9.18301e-05" dy="25" flood-color="#000000" flood-opacity="0.252525" in="SourceGraphic" result="Shadow" stdDeviation="12.5"/>
+</filter>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="4000" width="4000" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer-1">
+<path d="M3996.87 1413.73L-22.9353 1413.73C-22.9353 1413.73-269.198 3120.63-255.819 3245.76C-186.295 3895.97 1272.61 3553.31 1389.43 3454.69C1521.77 3342.96 1669.44 3226.08 1772.66 3243.61C1889.92 3263.52 2181.56 3529.75 2574.66 3454.69C3266 3322.68 3039.34 3641 4181.56 3651.44C4424.78 3172.22 3996.87 1413.73 3996.87 1413.73Z" fill="#79bdbe" fill-rule="evenodd" filter="url(#Filter)" stroke="none"/>
+<path d="M3774.45 1506.45L-225.547 1506.45L-437.382 3415.67C-437.382 3415.67 643.55 3530.04 1184.15 3468.95C1607.77 3421.08 1654.49 3372.28 2302.27 3363.41C2899.75 3355.23 2863.41 3548.57 4000 3558.72C4242.02 3093.12 3774.45 1506.45 3774.45 1506.45Z" fill="#f6e4da" fill-rule="evenodd" filter="url(#Filter_2)" stroke="none"/>
+<path d="M3632.14 1495.15L-367.858 1495.15L-367.858 3436.85C-367.858 3436.85 415.705 3358.69 1098.82 3420.8C1525.34 3459.58 1516.52 3334.13 2164.3 3325.26C2761.78 3317.07 3297.15 3439.06 4111.84 3265.72C4353.86 2800.13 3632.14 1495.15 3632.14 1495.15Z" fill="#c2ddd6" fill-rule="evenodd" filter="url(#Filter_3)" stroke="none"/>
+<path d="M3.41061e-13-369.889L4000-369.889L4000 3126.88C4000 3126.88 3527.41 3373.32 2887.97 3388.97C1910.13 3412.9 2084.85 3268.65 1437.07 3259.78C858.272 3251.85 986.011 3630.11-19.8441 3307.49C-51.0307 3297.49 38.3158 3355.73 0 3351.26C-242.023 2885.67 3.41061e-13-369.889 3.41061e-13-369.889Z" fill="#f4b9bb" fill-rule="evenodd" filter="url(#Filter_4)" stroke="none"/>
+</g>
+</svg>

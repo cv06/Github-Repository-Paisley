@@ -1,5 +1,9 @@
-// ALL
-var browserScale = 'scale(auto)';
-document.body.style.webkitTransform = browserScale; // Chrome, Opera, Safari
-document.body.style.msTransform = browserScale; // IE 9
-document.body.style.transform = browserScale; // General
+/**=======================================================================================================================
+ *                                                    ANCHOR INJECT HTML COMPONENTS
+ *=======================================================================================================================**/
+fetch('header.html')
+	.then(response => response.text())
+	.then(text => document.getElementById('header-ctn').innerHTML = text);
+fetch('footer.html')
+	.then(response => response.text())
+	.then(text => document.getElementById('footer').innerHTML = text);

@@ -1,96 +1,53 @@
-<header id="header" data-scroll="false" data-bg="false">
-	<div id="paisley-logo-home-link" class="nav-color">
-		<a href="index.html">
-			<img src="black-logo.svg" alt="Paisley's Parties logo">
-		</a>
-	</div>
-	<ul id="nav-list-desktop">
-		<li class="nav-item nav-color"><a href="index.html">Home</a></li>
-		<li class="nav-item nav-color"><a href="gallery.html">Gallery</a></li>
-		<li class="nav-item nav-color"><a href="services.html">Services</a></li>
-		<li class="nav-item nav-color"><a href="pricing-and-payments.html">Pricing and Payments</a></li>
-		<li class="nav-item nav-color"><a href="faq.html">FAQ</a></li>
-	</ul>
-	<div id="hamburger-toggle" class="nav-color" data-toggle="false">
-	</div>
-	<div id="three-dot-toggle" class="nav-color" data-toggle="false">
-	</div>
-</header>
-<!-- ------------------------------ || THREE DOT DROPDOWN MENU || ------------------------------ -->
-<div id="three-dot-menu" data-visible="false">
-	<ul id="dropdown-menu-ul">
-		<li class="dropdown-menu-item" id="about-popup-btn">About Me</li>
-		<li class="s-m-dd">
-			<div>Social Media &rtrif;</div>
-			<a href="https://www.facebook.com/paisleysparties" target="_blank" class="nav-color">
-				<img src="facebook-icon.svg" alt="facebook link">
-				@Paisleysparties
-			</a>
-			<a href="https://www.instagram.com/paisleys_parties/" target="_blank" class="nav-color">
-				<img src="instagram.svg" alt="instagram link">
-				@paisleys_parties
-
-			</a>
+<link rel="stylesheet" href="header.css">
+<!--====================================================== MAIN ======================================================-->
+<header id="header" data-background="false" data-scroll="false">
+	<a href="index.html" id="header__logo">
+	</a>
+	<!--====================================================== NAV LIST ======================================================-->
+	<ul id="nav">
+		<li class="nav__item">
+			<a href="index.html">Home</a>
 		</li>
-		<li class="dropdown-menu-item" id="contact-popup-btn">Contact</li>
+		<li class="nav__item">
+			<a href="gallery.html">Gallery</a>
+		</li>
+		<li class="nav__item">
+			<a href="service.html">Services</a>
+		</li>
+		<li class="nav__item">
+			<a href="pricing.html">Pricing and Payments</a>
+		</li>
+		<li class="nav__item">
+			<a href="faq.html">FAQ</a>
+		</li>
+		<div id="hamburger-toggle" data-toggle="false"></div>
+		<div id="dropdown-toggle" data-toggle="false" onclick="dropdownToggle()"></div>
 	</ul>
-</div>
-</div>
-<!-- ------------------------------ || HAMBURGER MENU || ------------------------------ -->
-<div id="hamburger-menu" data-visible="false">
-	<ul id="hamburger-nav-list">
-		<li class="nav-item-hamburger"><a href="index.html">Home</a></li>
-		<li class="nav-item-hamburger"><a href="gallery.html">Gallery</a></li>
-		<li class="nav-item-hamburger"><a href="services.html">Services</a></li>
-		<li class="nav-item-hamburger"><a href="pricing-and-payments.html">Pricing and Payments</a></li>
-		<li class="nav-item-hamburger"><a href="faq.html">FAQ</a></li>
-	</ul>
-	<img src="x.svg" alt="close button" id="close-hamburger-btn">
-</div>
+</header>
 
-<!-- ------------------------------ || ABOUT ME POPUP  || ------------------------------ -->
-<div id="about-popup" data-visible="false">
-	<img src="x.svg" alt="close button" id="close-btn-about-popup">
-	<div class="header-about-popup">About Me</div>
-	<div class="text-about-popup">
-		<!-- use balloons to lift people up and have meaning, does fundraiser and church stuff etc, got chance during covid to decorate yards and do drive by celebrations and lift up during the pandemic   -->
-		Balloons have always been apart of me and my gift but I would've never imagined getting the opportunity
-		to make them my business.
-		Even at the age of 15, I had the privilege to lear the basics of clowning and ballooning in preparation
-		for a mission trip.
-		Decades later, and a few amazing friends gained, like Teresa Forst, Shades the Clown, and Tammy
-		Rosecrans, from Butterfly Kisses, I get to use everything that I have learned.
-		Celebrations and ballooning make up a large part of my life and through the COVID-19 pandemic I have
-		been presented with a lot of opportunities.
-		Moods lowered, and celebrating wasn't as easy however we were able to be a part of more and bring more
-		smiles than we ever thought.
-		Through yard signs and getting to be a apart of things like drive through parades I got to do what I
-		want more than ever.
-		What I want is not just to make things look pretty, while that is nice, I love to make more of balloons
-		and actually fill hearts with joy which is why I love working with charities and churches or fundraisers
-		to accomplish just that.
-		Balloons and decorations are a lot more than just static objects, They can bring joy and not just to
-		children, but to everyone looking to have a fun celebration.
-		I love being presented with all opportunities given and making the most of everything.
-	</div>
-	<div class="liz-voss-about-popup">Liz Voss
-		<div class="liz-voss-sub-about-popup">Balloon Artist</div>
-	</div>
-</div>
-<!-- ------------------------------ || CONTACT ME POPUP  || ------------------------------ -->
-<div id="contact-popup" data-visible="false">
-	<img src="x.svg" alt="close button" id="close-btn-contact-popup">
-	<div class="header-contact-popup">Contact Info</div>
-	<div class="mail-info-contact-popup contact-info-item">paisleysparties@gmail.com</div>
-	<div class="phone-info-contact-popup contact-info-item"><a href="tel:(402)202-8663"><img
-			 src="cursor.svg" alt="click me to call">(402) 202 - 8663</a></div>
-	<div class="location-info-contact-popup contact-info-item">Lincoln NE</div>
-	<div class="location-sub-info-contact-popup">See FAQ for more info on rates for areas outside of
-		Lincoln. </div>
-	<img src="mail-icon.svg" alt="mail icon" id="mail-icon-contact-popup" class="icon-contact-popup">
-	<img src="phone-icon.svg" alt="phone icon" id="phone-icon-contact-popup" class="icon-contact-popup">
-	<img src="location.svg" alt="location icon" id="location-icon-contact-popup"
-	 class="icon-contact-popup">
-</div>
-<script src="header.js" defer></script>
-<script src="index.js"></script>
+<!--====================================================== DROPDOWN MENU ======================================================-->
+<!--====================================================== DIVISION ======================================================-->
+<ul id='dropdown-menu' data-visible="false" data-scroll="false">
+	<li class="dropdown__item">
+		About Me
+	</li>
+	<li class="dropdown__item">
+		Contact
+	</li>
+	<li class="dropdown__item dropdown__item--socials">
+		<div>Social Media &rtrif;</div>
+
+		<div> <a href="https://www.facebook.com/paisleysparties" target="_blank"
+			 class="dropdown__facebook dropdown__social">
+				<img src="facebook-icon-white.svg" alt="facebook link">
+				<div> @Paisleysparties
+				</div>
+			</a></div>
+		<div><a href="https://www.instagram.com/paisleys_parties/" target="_blank"
+			 class="dropdown__instagram dropdown__social">
+				<img src="instagram-white.svg" alt="instagram link">
+				<div>@paisleys_parties</div>
+			</a></div>
+
+	</li>
+</ul>
